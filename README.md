@@ -1,5 +1,5 @@
 # Applied-Linear-Controls-Project-Part-1
-** To develop and validate an empirical discrete-time state-space model of the dynamic system using system identification methods **
+**To develop and validate an empirical discrete-time state-space model of the dynamic system using system identification methods**
 
 #### Objectives Achieved: 
 
