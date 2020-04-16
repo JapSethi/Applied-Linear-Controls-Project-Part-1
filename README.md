@@ -25,5 +25,5 @@
 #### Use of each file:
 - [**Midterm_Project_Japnit_Sethi.mlx**](Midterm_Project_Japnit_Sethi.mlx) - Executable file with learly defined problem statement and approach
 - [**Midterm_Project_Japnit_Sethi.pdf**](Midterm_Project_Japnit_Sethi.pdf) - Published Document for a quick check of Solutions and Code
-- [**plant_s20.p**](animate_auv.p) - Animation code used throughout the code for easy visual and intuitive check
+- [**s20_plant.p**](s20_plant.p) - Plant function file that takes excitation u as input (1xN) and returns the output response y(2xN), where N is the number of samples
 - [**Midterm_Project_Data**](Midterm_Project_Data) - Track of Iterations for Pole Placements method
