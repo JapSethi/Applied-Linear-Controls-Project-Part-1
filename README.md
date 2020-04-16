@@ -3,6 +3,17 @@
 
 > **Note**: For this project, we assume that nothing specific is known about the system dynamics; however, we do know that it has two outputs and one input, and we know that the system is open-loop stable.
 
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
 #### Objectives Achieved: 
 
 - Constructed an excitation signal for System Identification following the satuaration limit for DAC (Digital-to-Analog Converter)
