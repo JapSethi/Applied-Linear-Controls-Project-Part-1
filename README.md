@@ -4,9 +4,7 @@
 > **Note**: For this project, we assume that nothing specific is known about the system dynamics; however, we do know that it has two outputs and one input, and we know that the system is open-loop stable.
 
 ```Matlab
-{
   y = s20_plant(u)
-}
 ```
 - [x] Executing Code
 - [x] Debugging (Compariason of H1 Estimate and Minimum Realization FRF)
@@ -15,7 +13,7 @@
 #### Objectives Achieved: 
 
 - Constructed an excitation signal for System Identification following the satuaration limit for DAC (Digital-to-Analog Converter)
-- Estimated the SNR (Signal to Noise Ratio) for each path of signal > u1 -> y1 and > u1 -> y2)
+- Estimated the SNR (Signal to Noise Ratio) for each path of signal 'u1 -> y1' and 'u1 -> y2'
 
 
 - Modeled MIMO dynamic systems using state-space techniques.
