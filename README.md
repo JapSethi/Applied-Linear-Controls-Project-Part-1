@@ -9,13 +9,13 @@
 }
 ```
 - [x] Executing Code
-- [x] Debugging (Compariason of Excitation Estimate and Minimum Realization FRF)
+- [x] Debugging (Compariason of H1 Estimate and Minimum Realization FRF)
 - [x] Finding the appropriate reduced order LTI object whose FRF is in coherence with the above 2
 
 #### Objectives Achieved: 
 
 - Constructed an excitation signal for System Identification following the satuaration limit for DAC (Digital-to-Analog Converter)
-- 
+- Estimated the SNR (Signal to Noise Ratio) for each path of signal > u1 -> y1 and > u1 -> y2)
 
 
 - Modeled MIMO dynamic systems using state-space techniques.
