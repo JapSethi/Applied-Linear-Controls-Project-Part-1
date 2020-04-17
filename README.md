@@ -15,7 +15,7 @@
 
 #### Objectives Achieved: 
 
-- Constructed an excitation signal for System Identification following the satuaration limit for DAC (Digital-to-Analog Converter)
+- Constructed an excitation signal for System Identification following the saturation limit for DAC (Digital-to-Analog Converter)
 - Estimated the SNR (Signal to Noise Ratio) for each path of signal `u1 -> y1` and `u1 -> y2`
 - Computed the Power Spectrum for responses and noise signals
 - Applied H1 estimate technique to estimate the frequency response function and estimated coherence of each path
@@ -38,4 +38,3 @@
 - [**Midterm_Project_Japnit_Sethi.mlx**](Midterm_Project_Japnit_Sethi.mlx) - Executable file with learly defined problem statement and approach
 - [**Midterm_Project_Japnit_Sethi.pdf**](Midterm_Project_Japnit_Sethi.pdf) - Published Document for a quick check of Solutions and Code
 - [**s20_plant.p**](s20_plant.p) - Plant function file that takes excitation u as input (1xN) and returns the output response y(2xN), where N is the number of samples
-- [**Midterm_Project_Data**](Midterm_Project_Data) - Track of Iterations for Pole Placements method
