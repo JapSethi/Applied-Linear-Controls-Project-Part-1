@@ -10,7 +10,7 @@
 
 #### Tasks List:
 - [x] Executing the appropriate code based on the sequential objectives below
-- [x] Debugging (Comparison of [H1 Estimate](https://community.sw.siemens.com/s/article/what-is-a-frequency-response-function-frf) and Minimum Realization FRF)
+- [x] Debugging (Comparison of [H1 Estimate](https://community.sw.siemens.com/s/article/what-is-a-frequency-response-function-frf) and [Minimum Realization](https://en.wikipedia.org/wiki/Minimal_realization) FRF)
 - [x] Finding the appropriate reduced order LTI object whose FRF is in coherence with the above two
 
 #### Objectives Achieved: 
@@ -19,7 +19,7 @@
 - Estimated the SNR (Signal to Noise Ratio) for each path of signal `u1 -> y1` and `u1 -> y2`
 - Computed the Power Spectrum for responses and noise signals
 - Applied H1 estimate technique to estimate the frequency response function and estimated coherence of each path
-- Estimated Discrete time transfer functions for each path using `invfreqz()` function and converted it into [minimum realization](https://en.wikipedia.org/wiki/Minimal_realization) using `minreal()` function
+- Estimated Discrete time transfer functions for each path using `invfreqz()` function and converted it into minimum realization using `minreal()` function
 - Generated a Balanced Realization using `balreal()` and plotted the [Hankel singular values](https://en.wikipedia.org/wiki/Hankel_singular_value) to help generate a reduced order LTI discrete time state space model using `modred`
 - Generated z-domain grid to plot the z-domain eigen values (poles) for each path using `zgrid()` function
 - Computed and Plotted final discrete-time state space LTI object in comparison to H1 estimate
