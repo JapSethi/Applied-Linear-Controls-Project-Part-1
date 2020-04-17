@@ -3,23 +3,25 @@
 
 > **Note**: For this project, we assume that nothing specific is known about the system dynamics; however, we do know that it has two outputs and one input, and we know that the system is open-loop stable.
 
+### How to Access the Unknown Plant function in the script:
 ```Matlab
   y = s20_plant(u)
 ```
+
+#### Task List:
 - [x] Executing Code
-- [x] Debugging (Compariason of H1 Estimate and Minimum Realization FRF)
+- [x] Debugging (Compariason of [H1 Estimate](https://community.sw.siemens.com/s/article/what-is-a-frequency-response-function-frf) and Minimum Realization FRF)
 - [x] Finding the appropriate reduced order LTI object whose FRF is in coherence with the above 2
 
 #### Objectives Achieved: 
 
 - Constructed an excitation signal for System Identification following the satuaration limit for DAC (Digital-to-Analog Converter)
-- Estimated the SNR (Signal to Noise Ratio) for each path of signal `u1 :arrow_right: y1` and `u1 :arrow_right: y2`
+- Estimated the SNR (Signal to Noise Ratio) for each path of signal `u1 -> y1` and `u1 -> y2`
+- Computed the Power Spectrum for responses and noise signals
+- Applied H1 estimate technique to estimate the Frequency Response function and estimated coherence of each path
+- 
 
 
-- Modeled MIMO dynamic systems using state-space techniques.
-- Analytically and numerically solved for the dynamic response of any linear dynamic system and relate the response to the state-space system description.
-- Analyzed the open-loop and closed-loop stability of any state-space representation.
-- Designed linear state-feedback controllers using pole placement techniques.
 
 <p align="center"><img src="auv_animate.gif">  </p>
 
