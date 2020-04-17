@@ -20,7 +20,7 @@
 - Computed the Power Spectrum for responses and noise signals
 - Applied H1 estimate technique to estimate the frequency response function and estimated coherence of each path
 - Estimated Discrete time transfer functions for each path using `invfreqz()` function and converted it into minimum realization using `minreal()` function
-- Generated a Balanced Realization using `balreal()` and plotted the [Hankel singular values](https://en.wikipedia.org/wiki/Hankel_singular_value) to help generate a reduced order LTI discrete time state space model using `modred`
+- Generated a Balanced Realization using `balreal()` and plotted the [Hankel singular values](https://en.wikipedia.org/wiki/Hankel_singular_value) to help generate a reduced order LTI discrete time state space model using `modred()`
 - Generated z-domain grid to plot the z-domain eigen values (poles) for each path using `zgrid()` function
 - Computed and Plotted final discrete-time state space LTI object in comparison to H1 estimate
 
