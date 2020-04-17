@@ -3,7 +3,7 @@
 
 > **Note**: For this project, we assume that nothing specific is known about the system dynamics; however, we do know that it has two outputs and one input, and we know that the system is open-loop stable.
 
-### How to Access the Unknown Plant function in the script:
+#### How to Access the Unknown Plant function in the script:
 ```Matlab
   y = s20_plant(u)
 ```
