@@ -27,13 +27,20 @@
 
 
 <p align="center"><img src="zgrid.jpeg">  </p>
-![A cute kitten](http://placekitten.com/200/300?style=centerme)
+<div class="image-wrapper" >
+  {% if include.url %}
+  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+  {% endif %}
+      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
+  {% if include.url %}
+  </a>
+  {% endif %}
+  {% if include.caption %}
+      <p class="image-caption">{{ include.caption }}</p>
+  {% endif %}
+</div>
 
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
-}
-
+{% include image.html img="assets/images/image_file" title="" caption="" %}
 
 #### Languages Used:
 - Matlab
