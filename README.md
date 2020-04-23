@@ -26,21 +26,15 @@
 
 
 
-<p align="center"><img src="zgrid.jpeg">  </p>
-<div class="image-wrapper" >
-  {% if include.url %}
-  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
-  {% endif %}
-      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
-  {% if include.url %}
-  </a>
-  {% endif %}
-  {% if include.caption %}
-      <p class="image-caption">{{ include.caption }}</p>
-  {% endif %}
-</div>
+<p align="center"><img src="zgrid.jpeg"> <div class="caption">Some caption text</div> </p>
 
-{% include image.html img="assets/images/image_file" title="" caption="" %}
+.caption {
+    width: 200px;
+    text-align: center;
+}
+![alttext](http://example.com/image.png "caption")
+
+
 
 #### Languages Used:
 - Matlab
