@@ -29,6 +29,11 @@
 <p align="center"><img src="zgrid.jpeg">  </p>
 ![A cute kitten](http://placekitten.com/200/300?style=centerme)
 
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
+
 
 #### Languages Used:
 - Matlab
