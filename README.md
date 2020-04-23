@@ -25,14 +25,15 @@
 - Computed and Plotted final discrete-time state space LTI object in comparison to H1 estimate
 
 
+<p align="center"><img src="Excitation.jpeg"> </p>
 
-<p align="center"><img src="zgrid.jpeg"> <div class="caption">Some caption text</div> </p>
+<p align="center"><img src="Hankel.jpeg"> </p>
 
-.caption {
-    width: 200px;
-    text-align: center;
-}
-![alttext](http://example.com/image.png "caption")
+<p align="center"><img src="zgrid.jpeg"> </p>
+
+<p align="center"><img src="FinalPlots.jpeg"> </p>
+
+
 
 
 
