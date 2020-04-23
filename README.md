@@ -26,8 +26,8 @@
 
 
 
-<p align="center"><img src="auv_animate.gif">  </p>
-
+<p align="center"><img src="zgrid.jpeg">  </p>
+![A cute kitten](http://placekitten.com/200/300?style=centerme)
 
 
 #### Languages Used:
