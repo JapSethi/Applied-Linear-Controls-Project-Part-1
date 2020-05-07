@@ -42,6 +42,6 @@
 - Latex 
 
 #### Use of each file:
-- [**Midterm_Project_Sethi.mlx**](Midterm_Project_Japnit_Sethi.mlx) - Executable file with learly defined problem statement and approach
-- [**Midterm_Project_Sethi.pdf**](Midterm_Project_Japnit_Sethi.pdf) - Published Document for a quick check of Solutions and Code
+- [**Midterm_Project_Sethi.mlx**](Midterm_Project_Sethi.mlx) - Executable file with learly defined problem statement and approach
+- [**Midterm_Project_Sethi.pdf**](Midterm_Project_Sethi.pdf) - Published Document for a quick check of Solutions and Code
 - [**s20_plant.p**](s20_plant.p) - Plant function file that takes excitation u as input (1xN) and returns the output response y(2xN), where N is the number of samples
