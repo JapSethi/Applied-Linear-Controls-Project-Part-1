@@ -24,16 +24,16 @@
 - Generated z-domain grid to plot the z-domain eigen values (poles) for each path using `zgrid()` function
 - Computed and Plotted final discrete-time state space LTI object in comparison to H1 estimate
 
-####<div align="center">Random Excitation Input fed into the unknown plant</div>
+#### <div align="center">Random Excitation Input fed into the unknown plant</div>
 <p align="center"><img src="RandomInputExcitation_Midterm.jpg"> </p>
 
-####<div align="center">Time Domain and PSD plot of Output responses and Noise</div>
+#### <div align="center">Time Domain and PSD plot of Output responses and Noise</div>
 <p align="center"><img src="TimedomainFreqDomainPlotResponseAndNoise_Midterm.jpg"> </p>
 
-####<div align="center">Bar chart of Hankel Values to set a threshold for further Model Reduction</div>
+#### <div align="center">Bar chart of Hankel Values to set a threshold for further Model Reduction</div>
 <p align="center"><img src="HankelPlot_Midterm.jpg"> </p>
 
-####<div align="center">Final Comparison between H1 estimation, invfreqz(discrete time tf) and Reduced State space model results</div>
+#### <div align="center">**Final Comparison between H1 estimation, invfreqz(discrete time tf) and Reduced State space model results**</div>
 <p align="center"><img src="FinalComparison_Midterm.jpg"> </p>
 
 
